@@ -31,15 +31,16 @@ if(isset($_POST["btn-url"])) {
 <head>
   <!-- STYLE CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-  
-  <title>Download Url</title>
+  <link rel="shortcut icon" href="https://urania.icu/assets/images/logo/favicon.png" type="image/png">
+
+  <title>Pengunduh Instagram</title>
 </head>
 <body>
   <div class="container">
     <div class="row d-block">
       <h1 class="text-center mt-3 mb-2">INSTAGRAM DOWNLOADER</h1>
       <form action="" method="post" class="mt-3 mb-2">
-        <input type="text" class="form-control <?php if($error_condition == true): ?>is-invalid<?php endif; ?>" id="judul" name="inpt-url" placeholder="Enter Url..." autocomplete="off" autofocus>
+        <input type="text" class="form-control <?php if($error_condition == true): ?>is-invalid<?php endif; ?>" id="judul" name="inpt-url" placeholder="Masukan Link/Post..." autocomplete="off" autofocus>
         <div class="invalid-feedback">
             <?= $error_msg ?>
         </div>

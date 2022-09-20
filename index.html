@@ -95,28 +95,28 @@
 
                     <li class="sidebar-item has-sub ">
                         <a href="#" class="sidebar-link">
-                            <i class="bi-telephone-fill"></i>
-                            <span>Contack Me</span>
+                            <i class="bi bi-tools"></i>
+                            <span>My Project</span>
                         </a>
                         <ul class="submenu ">
                                                             <li class="submenu-item ">
-                                    <a href="https://instagram.com/armnyessir">
-                                        Instagram
+                                    <a href="ins/index.php">
+                                        Instagram Downloader
                                                                             </a>
                                 </li>
                                                             <li class="submenu-item ">
-                                    <a href="https://wa.me/6281393138971">
-                                        WhatsApp
+                                    <a href="/music/index.html">
+                                        Mini Playlist
                                                                             </a>
                                 </li>
                                                             <li class="submenu-item ">
-                                    <a href="https://t.me/cawlye">
-                                        Telegram
+                                    <a href="#">
+                                        Soon
                                                                             </a>
                                 </li>
                                                             <li class="submenu-item ">
-                                    <a href="https://github.com/indox0d3">
-                                        Github
+                                    <a href="#">
+                                        Soon
                                                                             </a>
                                 </li>
                                                     </ul>
@@ -124,8 +124,8 @@
                 
                 <li class="sidebar-item">
                     <a href="#" onclick="confirmLogout()" class='sidebar-link'>
-                        <i class="bi bi-tools"></i>
-                        <span>My Project</span>
+                        <i class="bi-telephone-fill"></i>
+                        <span>Contac Me</span>
                     </a>
                 </li>
 
@@ -182,7 +182,7 @@
         function confirmLogout() {
             Swal.fire({
                 title: 'Hold On!',
-                text: "Are you sure you want to see my project?",
+                text: "Are you sure you want Quit from this website?",
                 type: 'warning',
                 icon: 'warning',
                 showCancelButton: true,
@@ -191,7 +191,7 @@
                 confirmButtonText: 'Yes!'
             }).then((result) => {
                 if (result.value) {
-                    window.location.href = "/music";
+                    window.location.href = "https://instagram.com/armnyessir";
                 }
             });
         }
